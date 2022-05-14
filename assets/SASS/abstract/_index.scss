@@ -43,13 +43,20 @@
     }
   }
   .green {
+    @include ImgCover;
     background-color: $color-opacity-green;
   }
   .purple {
+    @include ImgCover;
     background-color: $color-opacity-purple;
   }
   .yellow {
+    @include ImgCover;
     background-color: $color-opacity-yellow;
+  }
+  .red{
+    @include ImgCover;
+    background-color: $color-opacity-red;
   }
   .behind-image {
     width: calc(100%);
@@ -71,14 +78,14 @@
   .icon{
     position: absolute;
     left: 130px;
-    top: 125px;
+    top: 105px;
   }
   .behind-image-item {
     font-size: 17px;
     margin-bottom: 2px;
     position: relative;
     left: -12px;
-    top: 30px;
+    top: 10px;
     text-align: start;
     -moz-transform: scale(-1, 1);
     -webkit-transform: scale(-1, 1);
